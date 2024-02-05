@@ -12,7 +12,7 @@ author: f0x
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  whoami: "/whoami.html"
+  whoami: "/whoami"
   HTB Profile: "https://app.hackthebox.com/profile/794721"
   My Github: "https://github.com/oxF0X"
   Resources:
