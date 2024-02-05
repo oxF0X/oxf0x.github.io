@@ -16,7 +16,6 @@ body {
   color: #404040;
   background-color: #292929;
   position: relative;
-  background-color: {{ site.page-col | default: "#FFFFFF" }};
   {% if site.page-img %}
   background-image: url({{ site.page-img | relative_url }});
   background-attachment: fixed;
