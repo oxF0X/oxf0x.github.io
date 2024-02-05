@@ -12,9 +12,9 @@ author: f0x
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  whoami: "/whoami.html"
   HTB Profile: "https://app.hackthebox.com/profile/794721"
   My Github: "https://github.com/oxF0X"
-  whoami: "/about.html"
   Resources:
     - Template: "https://github.com/Apr4h/apr4h.github.io"
     - Learn markdown: "https://www.markdowntutorial.com/"
