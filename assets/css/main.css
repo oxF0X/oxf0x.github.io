@@ -126,7 +126,7 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: {{ site.navbar-col | default: "#F5F5F5" }};
+  background-color: {{ site.navbar-col | default: "#292929" }};
   border-bottom: 1px solid {{ site.navbar-border-col | default: "#EAEAEA" }};
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}
@@ -377,7 +377,7 @@ footer {
   border-top: 1px #EAEAEA solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
-  background-color: {{ site.footer-col | default: "#F5F5F5" }};
+  background-color: {{ site.footer-col | default: "#292929" }};
   {% if site.footer-img %}
     background-image: url({{ site.footer-img | relative_url }});
     background-attachment: fixed;
@@ -525,7 +525,7 @@ footer .footer-custom-content {
 .blog-tags a:hover {
   border-radius: 2px;
   color: {{ site.hover-col | default: "#0085A1" }};
-  background-color: #EEE;
+  background-color: #292929;
 }
 
 .post-preview .blog-tags {
@@ -749,7 +749,7 @@ footer .footer-custom-content {
   font-weight: 800;
   letter-spacing: 1px;
   padding: 0.625rem 0.3125rem;
-  background-color: #FFF;
+  background-color: #292929;
   border-radius: 0;
   color: #404040;
 }
@@ -760,7 +760,7 @@ footer .footer-custom-content {
 }
 .pagination .page-item .page-link:hover,
 .pagination .page-item .page-link:focus {
-  color: #FFF;
+  color: #292929;
   border: 1px solid {{ site.hover-col | default: "#0085A1" }};
   background-color: {{ site.hover-col | default: "#0085A1" }};
 }
